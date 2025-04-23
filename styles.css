@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f8;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #2b6777;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc70;
+}
+
+/* Section Image */
+section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+section img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;/*make edjes roud*/
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Article Container */
+article {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side - Introduction */
+article > div {
+    flex: 1;
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2b6777;
+}
+
+/* Contact Form */
+aside {
+    flex: 1;
+    background-color: #f0f8ff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+aside input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+aside input:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 6px rgb(255, 0, 0);
+}
