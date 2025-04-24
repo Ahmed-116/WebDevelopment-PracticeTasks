@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+text-align: center;
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+#card{
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+
+#picture img{
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+}
+#name{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    padding: 20px;
+}
+#passion{
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+}
+#instagram,#github{
+    margin: 2px;
+    border:2px ;
+    padding: 10px;
+    display: inline-block;
+}
+#instagram a{
+    background-color: grey;
+    border-radius: 5%;
+    padding: 10px;
+    color: aliceblue;
+   
+}
+
+#github a{
+    background-color: grey;
+    border-radius: 5%;
+    padding: 10px;
+    color: aliceblue;
+   
+}
