@@ -18,13 +18,18 @@ align-items: center;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
-   
+    box-shadow: 4px 4px 12px grey;
 }
+
 
 #picture img{
     width: 100px;
     text-align: center;
     border-radius: 50%;
+    transition: transform 1s ease;
+}
+#picture img:hover{
+    transform: scale(1.1);
 }
 #name{
     text-align: center;
@@ -40,22 +45,32 @@ align-items: center;
 }
 #instagram,#github{
     margin: 2px;
-    border:2px ;
     padding: 10px;
-    display: inline-block;
-}
-#instagram a{
-    background-color: grey;
-    border-radius: 5%;
-    padding: 10px;
-    color: aliceblue;
-   
+    display: inline-flex;
 }
 
-#github a{
+#instagram a, #github a {
     background-color: grey;
-    border-radius: 5%;
+    border-radius: 10%;
     padding: 10px;
     color: aliceblue;
-   
+    transition: transform 1s ease;  
 }
+
+#instagram a:hover, #github a:hover {
+    transform: scale(1.1);
+}
+/* @media (max-width: 600px) {
+    #card {
+        width: 90%; /* Card becomes narrower on small screens */
+    }
+/* 
+    #ids {
+        flex-direction: column; /* Arrange child elements vertically */
+        /* align-items: center; /* Center them horizontally */
+    }
+
+    /* #instagram, #github {
+        margin: 10px 0; /* Add vertical spacing between Instagram and GitHub */
+    } */
+} */ */ */
