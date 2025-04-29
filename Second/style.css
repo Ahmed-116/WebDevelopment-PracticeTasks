@@ -60,17 +60,17 @@ align-items: center;
 #instagram a:hover, #github a:hover {
     transform: scale(1.1);
 }
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     #card {
         width: 90%; /* Card becomes narrower on small screens */
     }
-/* 
+
     #ids {
         flex-direction: column; /* Arrange child elements vertically */
-        /* align-items: center; /* Center them horizontally */
+         align-items: center; /* Center them horizontally */
     }
 
-    /* #instagram, #github {
+     #instagram, #github {
         margin: 10px 0; /* Add vertical spacing between Instagram and GitHub */
-    } */
-} */ */ */
+    } 
+}

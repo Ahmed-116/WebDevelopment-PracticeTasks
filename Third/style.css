@@ -1,0 +1,61 @@
+*{
+    
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 30px;
+}
+body{
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+height: 100vh;
+
+}
+section{
+    width: 40%;
+    background-color: white;
+    height: 60%;
+    padding: 30px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    text-align: center;
+   display: flex;
+   box-shadow: 2px 2px 2px grey;
+   margin: 10px 10px
+}
+#name,#password{
+    padding: 10px;
+    height: 5px;
+    margin: 0 auto;
+ width: 80%;
+
+ text-align: center;
+
+ 
+}
+#submit{
+text-align: center;
+    padding: 10px 20px;
+    width: 30%;
+
+    margin: 10px auto;
+    margin-top: 20px;
+background-color: rgb(64, 148, 64);
+cursor: pointer;
+font-size: large;
+transition: transform 0.7s ease;
+
+}
+#submit:hover{
+    background-color:  rgb(4, 130, 4);
+    transform: scale(1.1);
+}
+a{
+    margin: 10px;
+}
